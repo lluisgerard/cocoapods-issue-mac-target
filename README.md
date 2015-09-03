@@ -1,6 +1,10 @@
-This is just a project to replicate an issue I encountered on a real one I cannot share.
+This is just a project to replicate an issue I encountered on a real one I cannot share, so I replicated the same structure:
+- iOS App
+- iOS Share Extension
+- iOS Action Extension
+- Mac App
 
-CocoaPods seems to mess it when I add these lines:
+CocoaPods seems to mess it when I add these lines in 'Podfile':
 ```
 ################################
 # MAC APP
@@ -10,4 +14,9 @@ target 'MacApp' do
 end
 ```
 
-This is just a target for a Mac app. I added the platform because otherwise it complains about it.
+![With Mac App Target](https://raw.githubusercontent.com/lluisgerard/cocoapods-issue-mac-target/master/images/mactarget.png)
+
+Is like, sometimes you can build the iOS app, but sometimes Extensions don't compile. Other times is only the Mac App. Either case you rearely can compile both.
+
+This is what happens if you remove the 'MacApp' target from the 'Podfile':
+![Withput Mac App Target](https://raw.githubusercontent.com/lluisgerard/cocoapods-issue-mac-target/master/images/nomactarget.png)
