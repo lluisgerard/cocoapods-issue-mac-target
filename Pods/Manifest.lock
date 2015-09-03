@@ -1,0 +1,16 @@
+PODS:
+  - FontAwesome.swift (0.5.0)
+  - SnapKit (0.13.0)
+  - XCGLogger (2.3)
+
+DEPENDENCIES:
+  - FontAwesome.swift
+  - SnapKit
+  - XCGLogger
+
+SPEC CHECKSUMS:
+  FontAwesome.swift: 0b38f996bce5478b6d3f4f41b291b7991d97c42a
+  SnapKit: 69fe274c71511df89a5591c11437a8b826bfa9eb
+  XCGLogger: a1d7b20405e369aa5c139221569cd080494b2469
+
+COCOAPODS: 0.39.0.beta.4

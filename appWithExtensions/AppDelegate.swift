@@ -8,6 +8,13 @@
 
 import UIKit
 
+// Just to import things
+import SnapKit
+import XCGLogger
+import FontAwesome_swift
+
+let log = XCGLogger.defaultInstance()
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 

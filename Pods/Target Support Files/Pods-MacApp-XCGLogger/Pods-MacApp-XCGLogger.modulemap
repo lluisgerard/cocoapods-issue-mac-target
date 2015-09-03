@@ -1,0 +1,6 @@
+framework module XCGLogger {
+  umbrella header "Pods-MacApp-XCGLogger-umbrella.h"
+
+  export *
+  module * { export * }
+}
