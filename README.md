@@ -18,5 +18,5 @@ end
 
 Is like, sometimes you can build the iOS app, but sometimes Extensions don't compile. Other times is only the Mac App. Either case you rearely can compile both.
 
-This is what happens if you remove the 'MacApp' target from the 'Podfile':
+Everything is fine when you remove the 'MacApp' target from the 'Podfile' (that warning is just an unrelated thing on the extension rules):
 ![Withput Mac App Target](https://raw.githubusercontent.com/lluisgerard/cocoapods-issue-mac-target/master/images/nomactarget.png)
